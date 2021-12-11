@@ -6,7 +6,7 @@ $mail = new PHPMailer;
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-$mail->isMail();                                      // Set mailer to use SMTP
+$mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'iitkgpmail.iitkgp.ac.in';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;   
                           // Enable SMTP authentication
